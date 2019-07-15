@@ -2,7 +2,7 @@
 title:              "#"
 description:        "A minimalist Jekyll theme"
 author_name:        "Yundo Choi" # change this to your name
-logo_url:           https://avatars0.githubusercontent.com/u/13794983?v=4 # Get it from GitHub API: https://api.github.com/users/<username>
+logo_url:           https://avatars0.githubusercontent.com/u/48561168?&v=4 # Get it from GitHub API: https://api.github.com/users/<username>
 
 # Site Settings
 url:                https://zygn.github.io # main url
