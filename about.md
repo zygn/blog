@@ -1,7 +1,7 @@
- ---
- layout: page
- title: About
- ---
+---
+layout: page
+title: About
+---
 
 Ruby, Rails, Backend Developer(ASAP)  
 
