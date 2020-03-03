@@ -11,6 +11,6 @@ title: About
 
 ---
 
-아는거: `Ruby`, `Python`, `Go`, `Linux` ~
+_아는거: `Ruby`, `Python`, `Go`, `Linux`_
 
-자신있는거: `Python`, `숨쉬기`, `자기` ~
+_자신있는거: `Python`, `숨쉬기`, `자기`_
