@@ -43,3 +43,8 @@ defaults:
       type:         "posts"
     values:
       layout:       "post"
+      
+
+
+disqus_url: zygn.disqus.com
+disqus_id: zygn
