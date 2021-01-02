@@ -16,4 +16,4 @@ title: About
 
 Expert for: _`Ruby`, `Python`, `Go`, `Linux`, `ROS`_
 
-mail: [dbseh5439@gmail.com](mailto:dbseh5439@gmail.com)/[linkedin](www.linkedin.com/in/yundomundo)
+mail: [dbseh5439@gmail.com](mailto:dbseh5439@gmail.com)/[linkedin](https://www.linkedin.com/in/yundomundo)
