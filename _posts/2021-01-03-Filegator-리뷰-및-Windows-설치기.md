@@ -30,7 +30,7 @@ Filegator는 PHP 기반의 파일서버 라고 할 수 있겠다. 구성은 매�
 
 그렇다. 설치방법은 Debian (Ubuntu)를 기준으로 명세해놔서 조금 난해 할 수 있는데, 하지만 PHP랑 Apache는 Windows 환경에서도 잘 돌아간다. **그럼 뭐 되지 않겠는가?** 애초에 OS-driven 한 패키지도 아니고. Apache+PHP만 설치하면 되겠지? 라는 생각으로 설치해봤다.
 
-![설치된 스크린샷](img/2021-01-03-Filegator-리뷰-및-Windows-설치기/img01.jpg)(https://raw.githubusercontent.com/zygn/blog/master/_posts/img/2021-01-03-Filegator-%EB%A6%AC%EB%B7%B0-%EB%B0%8F-Windows-%EC%84%A4%EC%B9%98%EA%B8%B0/img01.jpg)
+![설치된 스크린샷](https://raw.githubusercontent.com/zygn/blog/master/_posts/img/2021-01-03-Filegator-%EB%A6%AC%EB%B7%B0-%EB%B0%8F-Windows-%EC%84%A4%EC%B9%98%EA%B8%B0/img01.jpg)
 
 Timber! 잘 작동 하는것을 볼수 있다.
 
@@ -46,11 +46,11 @@ Timber! 잘 작동 하는것을 볼수 있다.
 1. filegator 사이트를 들어가서 [Download](https://github.com/filegator/static/raw/master/builds/filegator_v7.4.6.zip)를 한다. (기준 7.4.6 버전, 아마 PHP 버전 따라가는듯?)
 2. 원하는 폴더에다 압축을 해제 한다. (본인은 D:/www에 했음)
 3. 그리고 XAMPP Control Panel에서 Config을 수정해준다.
-   ![XAMPP 컨트롤 패널](img/2021-01-03-Filegator-리뷰-및-Windows-설치기/img02.jpg)(https://raw.githubusercontent.com/zygn/blog/master/_posts/img/2021-01-03-Filegator-%EB%A6%AC%EB%B7%B0-%EB%B0%8F-Windows-%EC%84%A4%EC%B9%98%EA%B8%B0/img02.jpg)
+   ![XAMPP 컨트롤 패널](https://raw.githubusercontent.com/zygn/blog/master/_posts/img/2021-01-03-Filegator-%EB%A6%AC%EB%B7%B0-%EB%B0%8F-Windows-%EC%84%A4%EC%B9%98%EA%B8%B0/img02.jpg)
    1. Config 탭에서 **Apache(httpd.conf)** 를 눌러 수정에 들어간다.
-   ![httpd.conf 수정](img/2021-01-03-Filegator-리뷰-및-Windows-설치기/img03.jpg)(https://raw.githubusercontent.com/zygn/blog/master/_posts/img/2021-01-03-Filegator-%EB%A6%AC%EB%B7%B0-%EB%B0%8F-Windows-%EC%84%A4%EC%B9%98%EA%B8%B0/img03.jpg)
-   2. 원래있던 **DocumentRoot**와 **Directory**를 주석 처리하고 위의 스크린샷 처럼 **DocumentRoot "본인이_압축푼_경로)/dist"**, **<Directory "본인이_압축푼_경로)/dist>"** 로 수정하고 저장한다.
-   3. 그러고 XAMPP Control Panel에서 Apache를 재시작 해주면 적용완료!
+   ![httpd.conf 수정](https://raw.githubusercontent.com/zygn/blog/master/_posts/img/2021-01-03-Filegator-%EB%A6%AC%EB%B7%B0-%EB%B0%8F-Windows-%EC%84%A4%EC%B9%98%EA%B8%B0/img03.jpg)
+   1. 원래있던 **DocumentRoot**와 **Directory**를 주석 처리하고 위의 스크린샷 처럼 **DocumentRoot "본인이_압축푼_경로)/dist"**, **<Directory "본인이_압축푼_경로)/dist>"** 로 수정하고 저장한다.
+   2. 그러고 XAMPP Control Panel에서 Apache를 재시작 해주면 적용완료!
 4.  **설치완료!**
 
 그리고, 초기 설정을 위해 admin/admin123로 로그인 하면 접속이 가능하다.
@@ -60,7 +60,7 @@ Timber! 잘 작동 하는것을 볼수 있다.
 한글이나, 파일 업로드 크기 같은 설정은 파일을 직접 수정해야한다. 
 **본인이_압축푼_경로**를 들어가서 **configuration.php** 파일을 손봐주자.
 
-![설정](img/2021-01-03-Filegator-리뷰-및-Windows-설치기/img04.jpg)(https://raw.githubusercontent.com/zygn/blog/master/_posts/img/2021-01-03-Filegator-%EB%A6%AC%EB%B7%B0-%EB%B0%8F-Windows-%EC%84%A4%EC%B9%98%EA%B8%B0/img04.jpg)
+![설정](https://raw.githubusercontent.com/zygn/blog/master/_posts/img/2021-01-03-Filegator-%EB%A6%AC%EB%B7%B0-%EB%B0%8F-Windows-%EC%84%A4%EC%B9%98%EA%B8%B0/img04.jpg)
 
 13번 줄의 language를 korean으로 설정하면 한글이 적용되고,
 15번, 16번 줄을 수정하면 업로드 가능한 파일 크기를 설정 할 수 있다. 청크 사이즈는 업로드 크기에 따라 가변적으로 설정하면 되겠다. (본인은 업로드 크기만 설정하고 청크사이즈는 그냥 냅뒀다.)
