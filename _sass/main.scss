@@ -116,7 +116,7 @@ blockquote {
       -moz-border-radius: 50%;
       border-radius: 50%;
     }
-    @media (max-width : 480px) {&:hover + .logo-prompt,
+    @media (max-width : 600px) {&:hover + .logo-prompt,
       &:focus + .logo-prompt {
         display: none !important;
       }
